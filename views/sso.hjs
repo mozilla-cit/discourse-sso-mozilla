@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <title>Login with SSO</title>
+  </head>
+  <body>
+    
+    <h1>Login to {{ ref }} using:</h1>
+    
+    <button id="persona">Persona</button>
+    
+    <script src="https://login.persona.org/include.js"></script>
+    <script src="/javascripts/sso.js"></script>
+  </body>
+</html>
