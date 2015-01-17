@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 
+var routes = require('./routes/index');
 var sso = require('./routes/sso');
 
 var app = express();
@@ -28,6 +29,7 @@ app.use(session({
   saveUninitialized: true
 }));
 
+app.use('/', routes);
 app.use('/sso', sso);
 
 // catch 404 and forward to error handler

@@ -5,6 +5,10 @@ var sso = new discourse_sso(process.env.SECRET || 'gaben');
 var request = require('request');
 var url = require('url');
 
+router.use(function(req, res) {
+  if(!req.get('Referrer')) res.redirect('/');
+});
+
 router.get('/', function(req, res) {
   var ref = req.session.ref = url.parse(req.get('Referrer'));
   var payload = req.query.sso;

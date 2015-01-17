@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="utf-8">
     <title>Login with SSO</title>
-    <link href="libs/boostrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
     
