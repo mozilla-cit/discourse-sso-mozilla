@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <title>Login with SSO</title>
+    <link href="/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Welcome to the SSO server for Mozilla's Discourse forums</h1>
+    </div>
+    
+  </body>
+</html>
