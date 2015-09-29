@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block main %}
+<h1>Register {{ email }}</h1>
+
+{% if username %}
+<h2>Error: username '{{ username }}' is already in use.</h2>
+{% endif %}
+
+<form action="/register" method="post">
+  <label>Username:
+    <input name="username">
+  </label>
+  <label>Real Name:
+    <input name="name" value="{{ name }}">
+  </label>
+  <button type="submit">Register</button>
+</form>
+{% endblock %}

@@ -1,0 +1,19 @@
+{
+  "origin": "http://sso.local:3000",
+  "server": {
+    "port": 3000
+  },
+  "database": {
+    "username": "sso",
+    "password": "sso",
+    "database": "sso",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "discourse": {
+    "url": "http://discourse.local/",
+    "apikey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "apiusername": "leo",
+    "secret": "gaben"
+  }
+}

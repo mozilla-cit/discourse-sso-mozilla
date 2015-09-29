@@ -1,0 +1,8 @@
+{% extends "index.html" %}
+
+{% block main %}
+<h1>Welcome, {{ user.email }}</h1>
+
+<a href="/welcome/continue">Continue</a>
+<a href="/welcome/not-me">Not me</a>
+{% endblock %}
